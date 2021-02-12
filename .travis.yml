@@ -4,4 +4,5 @@ arch:
 os: linux
 language: go
 go:
-  - 1.x
+  - 1.15
+  - tip
