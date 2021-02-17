@@ -6,3 +6,5 @@ language: go
 go:
   - 1.15
   - tip
+script:
+  - make test
