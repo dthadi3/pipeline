@@ -1,10 +1,10 @@
 arch:
-#  - amd64
+  - amd64
   - ppc64le
 os: linux
 language: go
 go:
   - 1.15
-#  - tip
+  - tip
 after_script:
   - go test ./...
