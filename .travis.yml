@@ -7,4 +7,4 @@ go:
   - 1.15
   - tip
 after_script:
-  - go test
+  - go test -tags=e2e
